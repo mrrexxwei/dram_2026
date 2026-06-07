@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #0d5122;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 4px 0 #989713;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 7% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: #9e9d0b;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #5fc05f;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #e2d55f;
+  text-shadow: 5px 0 #4d4d1c;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+#keys-pressed {
+  font-size: 2.5rem;
+  color: #DBEDF3;
+}
+
+.pretty-button {
+  background-color: #9f8a11;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pretty-button:hover {
+  background-color: #b8ab38;
+  transform: scale(1.05);
+}
+
+.pretty-button:active {
+  background-color: #939218;
+  transform: scale(0.98);
+}
